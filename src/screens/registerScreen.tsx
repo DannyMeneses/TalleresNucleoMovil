@@ -61,14 +61,14 @@ export const RegisterScreen = () => {
       setMessageSnackBar({
         visible: true,
         message: 'Registro exitoso',
-        color: '#4CAF50', // Verde para éxito
+        color: '#4CAF50',
       });
     } catch (e) {
       console.log(e);
       setMessageSnackBar({
         visible: true,
         message: 'Error al registrar. Por favor, inténtalo de nuevo.',
-        color: '#f44336', // Rojo para errores
+        color: '#f44336',
       });
     }
   };

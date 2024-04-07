@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import { createStackNavigator } from "@react-navigation/stack";
 import { LoginScreen } from "../screens/loginScreen";
 import { RegisterScreen } from "../screens/registerScreen";
-import { HomeScreen } from "../screens/homeScreen";
+import { HomeScreen } from "../screens/homeScreen/HomeScreen";
 import { onAuthStateChanged } from "firebase/auth";
 import { auth } from "../configs/firebaseConfig";
 import { View } from "react-native";
